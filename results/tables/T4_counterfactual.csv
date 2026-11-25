@@ -1,0 +1,6 @@
+,coverage,coverage,coverage,validity,validity,validity,feasible,feasible,feasible,robust_validity,robust_validity,robust_validity,conditional_robust_validity,conditional_robust_validity,conditional_robust_validity,relative_distance,relative_distance,relative_distance
+,mean,std,count,mean,std,count,mean,std,count,mean,std,count,mean,std,count,mean,std,count
+method,,,,,,,,,,,,,,,,,,
+Nearest,0.01,0.1,100,0.01,0.1,100,0.01,0.1,100,0.003,0.03,100,0.3,,1,0.05,,1
+Robust,0.01,0.1,100,0.01,0.1,100,0.01,0.1,100,0.006999999999999999,0.06999999999999999,100,0.7,,1,0.3,,1
+StabilityGatedRobust,0.0,0.0,100,0.0,0.0,100,0.0,0.0,100,0.0,0.0,100,,,0,,,0

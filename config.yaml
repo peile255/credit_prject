@@ -1,0 +1,16 @@
+seed: 42
+split_seeds: [42,43,44,45,46,47,48,49,50,51]
+folds: 5
+threads: 2
+n_estimators: 200
+bootstrap_models: 30
+holdout_models: 10
+background_size: 16
+permutation_cycles: 4
+local_per_stratum: 20
+global_samples: 100
+counterfactual_samples: 100
+inference_bootstrap: 2000
+missing_rates: [0.05,0.10,0.20]
+shap_configs: [XGB_W, STACK, STACK_W, STACK_W_PLATT, STACK_W_ISO]
+top_k: 5

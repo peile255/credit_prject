@@ -1,0 +1,5 @@
+threads: 2
+trials: 20
+tuning_seeds: [42,43,44]
+shap_bootstraps: 10
+inference_bootstrap: 2000

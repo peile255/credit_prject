@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "smoke": false,
+  "threshold": 0.3023565887505941,
+  "local_n": 80,
+  "global_n": 100,
+  "cf_n": 100
+}

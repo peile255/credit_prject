@@ -1,0 +1,47 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Python environments
+.conda/
+.venv/
+venv/
+env/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Temporary files
+*.tmp
+*.bak
+
+# Archives
+*.tar.gz
+*.tar.gz.sha256
+
+# Local execution logs
+/logs/
+*.log
+*_job_id.txt
+
+# Smoke test results
+results_smoke/
+results_supplementary_smoke/
+
+# Build files
+build/
+dist/
+*.egg-info/

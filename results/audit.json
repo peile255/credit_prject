@@ -1,0 +1,59 @@
+{
+  "n": 30000,
+  "features": 23,
+  "positive": 6636,
+  "negative": 23364,
+  "missing": 0,
+  "duplicate_predictor_rows": 56,
+  "data_sha256": "f6c131c25f5ea6716c1439d986550832a5ba1ed218fbbfc3013bb92bb78dcee2",
+  "smoke": false,
+  "config": {
+    "seed": 42,
+    "split_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
+    "folds": 5,
+    "threads": 2,
+    "n_estimators": 200,
+    "bootstrap_models": 30,
+    "holdout_models": 10,
+    "background_size": 16,
+    "permutation_cycles": 4,
+    "local_per_stratum": 20,
+    "global_samples": 100,
+    "counterfactual_samples": 100,
+    "inference_bootstrap": 2000,
+    "missing_rates": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "shap_configs": [
+      "XGB_W",
+      "STACK",
+      "STACK_W",
+      "STACK_W_PLATT",
+      "STACK_W_ISO"
+    ],
+    "top_k": 5
+  },
+  "python": "3.11.18",
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.2.0",
+    "lightgbm": "4.7.0",
+    "catboost": "1.2.10",
+    "scipy": "1.17.1"
+  }
+}
